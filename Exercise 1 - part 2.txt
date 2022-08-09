@@ -1,0 +1,19 @@
+public class Main {
+  public static void main(String[] args) {
+    Coche nuevocoche = new Coche();
+    nuevocoche.Anadirpuerta();
+    nuevocoche.Anadirpuerta();
+    nuevocoche.Anadirpuerta();
+    nuevocoche.Anadirpuerta();
+    nuevocoche.Anadirpuerta();
+    nuevocoche.Anadirpuerta();
+    System.out.println(nuevocoche.puertas);
+  }
+}
+
+class Coche{
+	public int puertas = 0; 
+    public void Anadirpuerta(){
+    	this.puertas++;
+    }
+}
