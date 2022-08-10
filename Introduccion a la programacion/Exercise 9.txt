@@ -1,0 +1,83 @@
+public class Main {
+  public static void main(String[] args) {
+  	String newLine = System.getProperty("line.separator");
+  
+  	
+    Cliente cliente = new Cliente();
+    cliente.setEdad(28);
+    cliente.setNombre("Juan Alvarez");
+    cliente.setTelefono(3148656312L);
+    cliente.setCredito(2300);
+    System.out.print("Datos del cliente" + newLine);
+    System.out.println("Edad: " + cliente.getEdad());
+    System.out.println("Nombre: " + cliente.getNombre());
+    System.out.println("Telefono: " + cliente.getTelefono());
+    System.out.println("Credito: " + cliente.getCredito() + newLine);
+    
+    
+    
+    
+    Trabajador trabajador = new Trabajador();
+    trabajador.setEdad(50);
+    trabajador.setNombre("Ricardo Palacio");
+    trabajador.setTelefono(3104434159L);
+    trabajador.setSalario(1400);
+    System.out.print("Datos del trabajador" + newLine);
+    System.out.println("Edad: " + trabajador.getEdad());
+    System.out.println("Nombre: " + trabajador.getNombre());
+    System.out.println("Telefono: " + trabajador.getTelefono());
+    System.out.println("Salario: " + trabajador.getSalario() + newLine);
+    
+  }
+}
+
+
+class Persona{
+
+	private int edad;
+    public void setEdad(int edad){
+    	this.edad = edad;
+    }
+    public int getEdad(){
+    	return this.edad;
+    }
+    
+    private String nombre;
+    public void setNombre(String nombre){
+    	this.nombre = nombre;
+    }
+    public String getNombre(){
+    	return this.nombre;
+    }
+    
+    private long telefono;
+	public void setTelefono(long telefono){
+    	this.telefono = telefono;
+    }
+    public long getTelefono(){
+    	return this.telefono;
+    }
+}
+
+class Cliente extends Persona{
+
+	private float credito;
+    public void setCredito(float credito){
+    	this.credito = credito;
+    }
+    public float getCredito(){
+    	return this.credito;
+    }
+}
+
+class Trabajador extends Persona{
+
+	private float salario;
+    public void setSalario(float salario){
+    	this.salario = salario;
+    }
+    public float getSalario(){
+    	return this.salario;
+    }
+
+}
