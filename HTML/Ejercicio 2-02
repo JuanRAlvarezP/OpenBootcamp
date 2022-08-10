@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02/2 - Tablas en HTML</title>
+    </head>
+    <body>
+        <h1>Ejercicio 02/2 - Tablas en HTML</h1>
+    </body>
+    <table>
+        <tr>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Ano de publicacion</th>
+            <th>Enlace a Amazon</th>
+        </tr>
+        <tr>
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td>1949</td>
+            <td><a href="https://www.amazon.com/-/es/George-Orwell/dp/0451524934">Comprar</a> </td>
+        </tr>
+        <tr>
+            <td>La dama de las camelias</td>
+            <td>Alexandre Dumas (hijo)</td>
+            <td>1848</td>
+            <td><a href="https://www.amazon.es/dama-las-camelias-Cl%C3%A1sicos-Libros-Selecci%C3%B3n/dp/8466793178/ref=sr_1_1?keywords=la+dama+de+las+camelias+alejandro+dumas&qid=1660141794&s=books&sr=1-1">Comprar</a> </td>
+        </tr>
+        <tr>
+            <td>Los hombres que no amaban a las mujeres</td>
+            <td>Stieg Larsson</td>
+            <td>2005</td>
+            <td><a href="https://www.amazon.es/hombres-amaban-mujeres-Booket-Logista/dp/8423343219">Comprar</a> </td>
+        </tr>
+    </table>
+</html>
