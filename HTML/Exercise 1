@@ -1,1 +1,18 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio de introduccion a HTML en OpenBootcamp</title>
+    </head>
+    <body>
+        <!--Este es mi primer comentatiode dos lineas
+        Aprendiendo a documentar mi codigo con OpenBootcamp-->
+        <div>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=hIbcd_Fncvw">The Office Bloopers</a></li>
+                <li><a href="https://www.youtube.com/watch?v=XqZsoesa55w">Baby Shark</a></li>
+                <li><a href="https://www.youtube.com/watch?v=NAc83CF8Ejk&list=RDNAc83CF8Ejk&start_radio=1">Someone like you - Adele</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
