@@ -2,10 +2,10 @@ let altura_cm = 173;
 let altura_m = 1.73;
 let peso_kg = 57.6;
 
-let altura_round_m = Math.round(altura_m)
+let altura_round_m = Math.ceil(altura_m)
 console.log(altura_round_m)
 
-let peso_round_kg = parseInt(peso_kg)
+let peso_round_kg = Math.floor(peso_kg)
 console.log(peso_round_kg)
 
 let max_value_JS = Number.MAX_VALUE
