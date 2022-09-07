@@ -1,0 +1,17 @@
+.seccion {
+    background-color: antiquewhite;
+    padding: 2rem;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.parrafo {
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.imagen {
+    width: 4rem;
+}
